@@ -1,0 +1,681 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Politica de Confidențialitate</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-transparentGray { background-color: rgba(227, 226, 224, 0); }
+.select-value-color-translucentGray { background-color: rgba(0, 0, 0, 0.06); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="3a349e70-a096-4a80-b1b1-f48c0a90ef80" class="page sans"><header><h1 class="page-title"><strong>Politica de Confidențialitate</strong></h1><p class="page-description"></p><table class="properties"><tbody></tbody></table></header><div class="page-body"><p id="fb80416f-7295-4a1c-a99b-fc19ac761c1f" class="">
+</p><blockquote id="706af077-8c75-4429-aa94-ee12458d37fb" class=""><strong>Data intrării în vigoare: 5 iunie 2024</strong></blockquote><p id="2be33ef8-00f8-4e58-a14f-52a14ce64fbe" class="">
+</p><p id="99ffb8a5-a9e0-4716-a4d3-f76bd9bd2335" class=""><strong>Mr. Nagy Software Systems &amp; Consulting S.R.L. (&quot;noi&quot;, &quot;nouă&quot; sau &quot;al nostru&quot;) operează site-ul web ipsiholog.eu (denumit în continuare &quot;Serviciul&quot;).</strong></p><p id="3ef6815b-fef1-4d16-906b-957799f58501" class=""><strong>Această pagină vă informează cu privire la politicile noastre privind colectarea, utilizarea și divulgarea Datelor Personale atunci când utilizați Serviciul nostru și alegerile pe care le aveți asociate cu aceste date.</strong></p><p id="5e170c23-bac5-4c5c-bc01-e43a4505cdf4" class=""><strong>Folosim datele dumneavoastră pentru a oferi și îmbunătăți Serviciul. Prin utilizarea Serviciului, sunteți de acord cu colectarea și utilizarea informațiilor în conformitate cu această politică. </strong><mark class="highlight-default"><strong>Cu excepția cazului în care se definește altfel în această Politică de Confidențialitate, termenii utilizați în această Politică de Confidențialitate au aceleași înțelesuri ca în Termenii și Condițiile noastre, accesibile pe ipsiholog.eu.</strong></mark></p><h1 id="529c7730-29ad-4d6a-ac4b-331d26fa0617" class=""><strong>Definiții</strong></h1><h3 id="39977ca8-fcd8-4464-8d28-4ed7176014ce" class=""><strong>Serviciu</strong></h3><p id="79cbcbc6-1d3c-4cd2-b53e-40a1b5babfb3" class=""><strong>Serviciul este site-ul ipsiholog.eu operat de Mr. Nagy Software Systems &amp; Consulting S.R.L.</strong></p><h3 id="84797175-8b0a-4b90-8f3a-391894696713" class=""><strong>Date Personale</strong></h3><p id="bbe63b46-f258-4c68-9521-6477e30be9b9" class=""><mark class="highlight-default"><strong>Datele Personale înseamnă date despre un individ care poate fi identificat din acele date</strong></mark><strong> (sau din acele date și alte informații aflate în posesia noastră sau care probabil vor intra în posesia noastră).</strong></p><h3 id="8f6d799c-5839-4b86-9e55-0d4adef31af9" class=""><strong>Date de Utilizare</strong></h3><p id="ceda8d5c-4779-465a-ba68-af182a59eb03" class=""><strong>Datele de Utilizare sunt date colectate automat, fie generate prin utilizarea Serviciului, fie din infrastructura Serviciului în sine (de exemplu, durata unei vizite pe o pagină).</strong></p><h3 id="30da2c48-4e3c-4330-850e-1053895fae3f" class=""><strong>Cookies</strong></h3><p id="06994118-069d-48f4-985c-8ff1f9e7abc4" class=""><strong>Cookies sunt fișiere mici stocate pe dispozitivul dumneavoastră (computer sau dispozitiv mobil).</strong></p><h3 id="baff760a-bd17-4a54-aa6d-615c37875829" class=""><strong>Operator de Date</strong></h3><p id="6923cd31-296b-4861-acc3-0164a080491f" class=""><strong>Operator de Date înseamnă persoana fizică sau juridică care (singură sau împreună sau în comun cu alte persoane) stabilește scopurile pentru care și modul în care orice informație personală este sau urmează să fie prelucrată. În scopul acestei Politici de Confidențialitate, noi suntem un Operator de Date al Datelor dumneavoastră Personale.</strong></p><h3 id="9b6b77e9-b532-4a05-b4c3-9b5dacf428dd" class=""><strong>Procesatori de Date (sau Furnizori de Servicii)</strong></h3><p id="5cf78607-a5ec-4b53-b73b-516c1e457725" class=""><strong>Procesator de Date (sau Furnizor de Servicii) înseamnă orice persoană fizică sau juridică care prelucrează datele în numele Operatorului de Date. Putem folosi serviciile diferiților Furnizori de Servicii pentru a prelucra datele dumneavoastră mai eficient.</strong></p><h3 id="f916039b-d6b6-45ad-afbe-3a2472d038cd" class=""><strong>Subiectul Datelor (sau Utilizatorul)</strong></h3><p id="b9fc89ad-58e8-458e-be9f-b789421fc8f5" class=""><strong>Subiectul Datelor este orice individ viu care utilizează Serviciul nostru și este subiectul Datelor Personale.</strong></p><h1 id="21400ac1-604d-4f90-88c1-2ed99d80d4c4" class=""><strong>Colectarea și Utilizarea Informațiilor</strong></h1><p id="32fa3360-045f-4714-a1a6-b1e49625ee2b" class=""><strong>Colectăm diferite tipuri de informații pentru diverse scopuri, pentru a vă oferi și îmbunătăți Serviciul nostru.</strong></p><h1 id="a1b2dc91-5f44-47b5-a51a-9127605699cc" class=""><strong>Tipuri de Date Colectate</strong></h1><h3 id="df1b964b-f714-40e1-bb0a-38e1a43dcc08" class=""><strong>Date Personale</strong></h3><p id="7d26caf1-b305-4124-85d6-4d51ff55501c" class=""><strong>În timp ce utilizați Serviciul nostru, este posibil să vă solicităm să ne furnizați anumite informații de identificare personală care pot fi utilizate pentru a vă contacta sau identifica („Date Personale”). Informațiile de identificare personală pot include, dar nu se limitează la:</strong></p><ul id="ecf168ab-15aa-4cf4-84d6-6949acec09e1" class="bulleted-list"><li style="list-style-type:disc"><strong>Adresa de email</strong></li></ul><ul id="71763af3-d98d-40df-8939-0a4352323706" class="bulleted-list"><li style="list-style-type:disc"><strong>Nume</strong></li></ul><ul id="293e32e3-ffbc-489b-be08-1b40828af290" class="bulleted-list"><li style="list-style-type:disc"><strong>Număr de telefon</strong></li></ul><ul id="8e5dd05e-7962-4908-81ba-747ccd9dafb0" class="bulleted-list"><li style="list-style-type:disc"><strong>Coduri de identificare (cod terapeut, cod fiscal)</strong></li></ul><ul id="8801148c-3983-4fb4-bff8-8da36a7ea0bb" class="bulleted-list"><li style="list-style-type:disc"><strong>Detalii bancare</strong></li></ul><ul id="6ec21b43-ed70-4c14-b03f-e90cf2ce86a9" class="bulleted-list"><li style="list-style-type:disc"><strong>Adresă</strong></li></ul><ul id="74a76962-d589-4e49-9b69-6d19ef8e0465" class="bulleted-list"><li style="list-style-type:disc"><strong>Cookies și Date de Utilizare</strong></li></ul><p id="7432fb20-20b2-4ac4-a17a-b972931ddc7c" class=""><strong>Putem folosi Datele dumneavoastră Personale pentru a vă contacta cu buletine informative, materiale de marketing sau promoționale și alte informații care ar putea fi de interes pentru dumneavoastră. Puteți renunța la primirea oricăreia sau tuturor acestor comunicări de la noi, urmând link-ul de dezabonare sau instrucțiunile furnizate în orice email pe care îl trimitem sau contactându-ne.</strong></p><h3 id="6969a0f7-73d8-4fda-a927-5640c2bdcfc4" class=""><strong>Date de Utilizare</strong></h3><p id="564ffec4-9a17-43d3-be24-6ac525cab067" class=""><strong>Putem colecta, de asemenea, informații despre cum este accesat și utilizat Serviciul („Date de Utilizare”). Aceste Date de Utilizare pot include informații precum adresa de Protocol Internet a computerului dumneavoastră (de exemplu, adresa IP), tipul de browser, versiunea browserului, paginile Serviciului nostru pe care le vizitați, data și ora vizitei dumneavoastră, timpul petrecut pe acele pagini, identificatori unici ai dispozitivului și alte date de diagnostic.</strong></p><h3 id="6f120a20-3b41-4565-a776-e78ea6286038" class=""><strong>Date de Urmărire și Cookies</strong></h3><p id="fe235064-48fb-4e1c-bc92-46dd3f1b4de0" class=""><strong>Folosim cookies și tehnologii similare de urmărire pentru a urmări activitatea pe Serviciul nostru și păstrăm anumite informații.</strong></p><p id="b46d96d3-6709-47e9-b785-f4ffdc712ae0" class=""><strong>Cookies sunt fișiere cu o cantitate mică de date care pot include un identificator unic anonim. Cookies sunt trimise către browserul dumneavoastră de pe un site web și stocate pe dispozitivul dumneavoastră. Alte tehnologii de urmărire sunt de asemenea utilizate, cum ar fi beacons, tag-uri și scripturi pentru a colecta și urmări informații și pentru a îmbunătăți și analiza Serviciul nostru.</strong></p><p id="3d74abbc-ff5f-4b5f-802d-daf14cd8dc90" class=""><strong>Puteți seta browserul dumneavoastră să refuze toate cookies sau să indice când un cookie este trimis. Cu toate acestea, dacă nu acceptați cookies, este posibil să nu puteți utiliza anumite părți ale Serviciului nostru.</strong></p><p id="37fbff64-cb82-4443-8dd0-2fbff9dc3141" class=""><strong>Exemple de Cookies pe care le folosim:</strong></p><ul id="d255c13a-d6c1-4220-8b4a-71cb626c0300" class="bulleted-list"><li style="list-style-type:disc"><strong>Cookies de Sesiune. Folosim Cookies de Sesiune pentru a opera Serviciul nostru.</strong></li></ul><ul id="309e25c2-4fed-4146-9f6c-4848011b7f96" class="bulleted-list"><li style="list-style-type:disc"><strong>Cookies de Preferințe. Folosim Cookies de Preferințe pentru a vă aminti preferințele și diferitele setări.</strong></li></ul><ul id="ad48cef4-76ff-49bc-9ae8-bba48474a910" class="bulleted-list"><li style="list-style-type:disc"><strong>Cookies de Securitate. Folosim Cookies de Securitate pentru scopuri de securitate.</strong></li></ul><h1 id="9e01dcdf-2df0-4f76-9152-8d4e7492d791" class=""><strong>Utilizarea Datelor</strong></h1><p id="5dced0ab-a240-412b-94ef-64b881e95973" class=""><a href="notion://www.notion.so/ipsiholog.eu">ipsiholog.eu</a> <strong>folosește datele colectate pentru diverse scopuri:</strong></p><ul id="207a640a-7f0a-4133-b69c-bfaf4aaea90a" class="bulleted-list"><li style="list-style-type:disc"><strong>Pentru a furniza și menține Serviciul nostru</strong></li></ul><ul id="828191ad-8e3b-485f-886d-79f2aeb47ecd" class="bulleted-list"><li style="list-style-type:disc"><strong>Pentru a vă anunța despre modificările aduse Serviciului nostru</strong></li></ul><ul id="8810ecfd-bf69-45dd-bb36-1320d206a29d" class="bulleted-list"><li style="list-style-type:disc"><strong>Pentru a vă permite să participați la caracteristici interactive ale Serviciului nostru atunci când alegeți să faceți acest lucru</strong></li></ul><ul id="8f11708b-90fd-4705-a96b-02a74b4fbfba" class="bulleted-list"><li style="list-style-type:disc"><strong>Pentru a oferi suport pentru clienți</strong></li></ul><ul id="314124b5-6978-40bc-b9a0-8d8de1323f1a" class="bulleted-list"><li style="list-style-type:disc"><strong>Pentru a aduna analize sau informații valoroase pentru a putea îmbunătăți Serviciul nostru</strong></li></ul><ul id="99debf5c-6433-47de-8505-2555c7b60bbc" class="bulleted-list"><li style="list-style-type:disc"><strong>Pentru a monitoriza utilizarea Serviciului nostru</strong></li></ul><ul id="93ca05ca-7b1c-4958-9793-7215fb8ee500" class="bulleted-list"><li style="list-style-type:disc"><strong>Pentru a detecta, preveni și aborda probleme tehnice</strong></li></ul><ul id="e4109a5a-6536-4b10-9a10-f9e3d5c7aff7" class="bulleted-list"><li style="list-style-type:disc"><strong>Pentru a vă oferi știri, oferte speciale și informații generale despre alte bunuri, servicii și evenimente pe care le oferim și care sunt similare cu cele pe care le-ați achiziționat deja sau despre care ați întrebat, cu excepția cazului în care ați optat să nu primiți astfel de informații</strong></li></ul><p id="6bcf0204-4a8b-444c-92c5-f0a5438bca9b" class=""><strong>Dacă doriți să revocați accesul Serviciului nostru la datele dumneavoastră, puteți face acest lucru de pe pagina setărilor de securitate Google, </strong><mark class="highlight-default"><strong>regăsită la următoarea adresă: </strong></mark><strong><a href="https://security.google.com/settings/security/permissions">security.google.com/settings/security/permissions</a></strong><strong>.</strong></p><h1 id="46f5829f-f9bb-4998-a226-cd1dc01d3f82" class=""><strong>Baza Legală pentru Prelucrarea Datelor Personale conform Regulamentului General privind Protecția Datelor (GDPR)</strong></h1><p id="6f618cc1-d5e7-415a-b24f-1673b4deb6ab" class=""><strong>Dacă sunteți din Spațiul Economic European (SEE), baza legală a ipsiholog.eu pentru colectarea și utilizarea informațiilor personale descrise în această Politică de Confidențialitate depinde de Datele Personale pe care le colectăm și de contextul specific în care le colectăm.</strong></p><p id="6914d47c-dba1-4dc6-bdde-ac3dbd6e3890" class=""><strong>ipsiholog.eu poate prelucra Datele dumneavoastră Personale pentru că:</strong></p><ul id="bf46be1b-f797-48bd-bb20-22eabeb5411a" class="bulleted-list"><li style="list-style-type:disc"><strong>Trebuie să îndeplinim un contract cu dumneavoastră</strong></li></ul><ul id="ed0341f4-d84a-40a7-9508-39da7cd1d8c3" class="bulleted-list"><li style="list-style-type:disc"><strong>Ne-ați dat permisiunea să facem acest lucru</strong></li></ul><ul id="afe2a34c-d269-457e-999a-a41e35384bd2" class="bulleted-list"><li style="list-style-type:disc"><strong>Prelucrarea este în interesele noastre legitime și nu este anulată de drepturile dumneavoastră</strong></li></ul><ul id="53f7a83f-6f0b-4521-8b9b-46ba3d5c2993" class="bulleted-list"><li style="list-style-type:disc"><strong>Pentru scopuri de procesare a plăților</strong></li></ul><ul id="467fa894-1e4d-4b70-bc0a-a1ba643e645e" class="bulleted-list"><li style="list-style-type:disc"><strong>Pentru a respecta legea</strong></li></ul><h1 id="f44124b2-babc-4cd4-bc5f-2500dafcdfcf" class=""><strong>Păstrarea Datelor</strong></h1><p id="5713e2fd-77e6-4a20-b426-51ee0fe25f46" class=""><strong>ipsiholog.eu va păstra Datele dumneavoastră Personale doar atât timp cât este necesar pentru scopurile stabilite în această Politică de Confidențialitate. Vom păstra și utiliza Datele dumneavoastră Personale în măsura necesară pentru a respecta obligațiile legale (de exemplu, dacă suntem obligați să păstrăm datele dumneavoastră pentru a respecta legile aplicabile), pentru a rezolva dispute și pentru a ne aplica acordurile și politicile legale.</strong></p><ul id="ffebd673-d636-4ad2-93f7-b7d912d83567" class="bulleted-list"><li style="list-style-type:disc">*ipsiholog.eu va păstra, de asemenea, Datele de Utilizare pentru scopuri de analiză internă. Datele de Utilizare sunt în general păstrate pentru o perioadă mai scurtă de timp, cu excepția cazurilor în care aceste date sunt utilizate pentru a întări securitatea sau pentru a îmbunătăți funcționalitatea Serviciului nostru.</li></ul><h1 id="f40b7ded-e262-41c9-8384-24c25bed5b15" class=""><strong>Transferul Datelor</strong></h1><p id="265c9ecb-67e3-441f-909d-1805fd0fc7d2" class=""><strong>Informațiile dumneavoastră, inclusiv Datele Personale, pot fi transferate și stocate pe computere situate în afara statului, provinciei, țării dumneavoastră sau a altei jurisdicții guvernamentale, unde legile privind protecția datelor pot fi diferite de cele din jurisdicția dumneavoastră.</strong></p><p id="ab5945f4-6796-406d-bf4c-adf0d53d1e12" class=""><strong>Dacă vă aflați în afara Europei (Danemarca) și alegeți să ne furnizați informații, vă rugăm să rețineți că transferăm datele, inclusiv Datele Personale, în Europa (Danemarca) și le procesăm acolo.</strong></p><p id="87b9da2d-d39c-44f7-b6ad-61dc0a5e7a88" class=""><strong>Consimțământul dumneavoastră pentru această Politică de Confidențialitate, urmat de trimiterea unor astfel de informații, reprezintă acordul dumneavoastră cu privire la acel transfer.</strong></p><p id="26a50379-dd69-42d6-844f-eaf6051489c6" class=""><strong>ipsiholog.eu va lua toate măsurile necesare în mod rezonabil pentru a se asigura că datele dumneavoastră sunt tratate în siguranță și în conformitate cu această Politică de Confidențialitate și că niciun transfer al Datelor dumneavoastră Personale nu va avea loc către o organizație sau o țară, cu excepția cazului în care există controale adecvate, inclusiv securitatea Datelor dumneavoastră și alte informații Personale.</strong></p><h1 id="5ba41dc0-a423-49b8-a97a-af9d680a1207" class=""><strong>Dezvăluirea Datelor</strong></h1><h3 id="5cb7f051-d158-4321-9a69-a3cfbd042917" class=""><strong>Tranzacție Comercială</strong></h3><p id="83b88fab-55fc-4994-b782-6bb598b3c1b6" class=""><strong>Dacă ipsiholog.eu este implicat într-o fuziune, achiziție sau vânzare de active, Datele dumneavoastră Personale pot fi transferate. Vom oferi un preaviz înainte ca Datele dumneavoastră Personale să fie transferate și să devină subiectul unei alte Politici de Confidențialitate.</strong></p><h3 id="62bb4a4d-b547-40fe-93bb-f8464a695d92" class=""><strong>Dezvăluire pentru Aplicarea Legii</strong></h3><p id="a29d5f53-f2f8-4929-8906-709591a2025d" class=""><strong>În anumite circumstanțe, ipsiholog.eu poate fi obligat să dezvăluie Datele dumneavoastră Personale dacă acest lucru este cerut de lege sau ca răspuns la solicitări valide din partea autorităților publice (de exemplu, o instanță de judecată sau o agenție guvernamentală).</strong></p><h3 id="10877394-6185-4eaf-aa0d-b9c653a99ee4" class=""><strong>Cerințe Legale</strong></h3><ul id="c09052ea-a1ca-45a9-ba2a-fb8763d75f73" class="bulleted-list"><li style="list-style-type:disc"><strong>ipsiholog.eu poate dezvălui Datele dumneavoastră Personale în convingerea de bună credință că această acțiune este necesară pentru:</strong><ul id="d48b01cc-9bf7-4cf1-91c3-9b8d6bfab8d4" class="bulleted-list"><li style="list-style-type:circle"><strong>A respecta o obligație legală</strong></li></ul><ul id="98420d87-4a1b-4cec-b560-13a25fa0c520" class="bulleted-list"><li style="list-style-type:circle"><strong>A proteja și apăra drepturile sau proprietatea ipsiholog.eu</strong></li></ul><ul id="de4f475d-bf95-4694-9bc6-224cc446dbf9" class="bulleted-list"><li style="list-style-type:circle"><strong>A preveni sau investiga posibile greșeli în legătură cu Serviciul</strong></li></ul><ul id="981b4ded-1fce-4ab3-b516-cc9574827e7c" class="bulleted-list"><li style="list-style-type:circle"><strong>A proteja siguranța personală a utilizatorilor Serviciului sau a publicului</strong></li></ul><ul id="f1f44c93-d126-4872-94bc-5be78972fcad" class="bulleted-list"><li style="list-style-type:circle"><strong>A proteja împotriva răspunderii legale</strong></li></ul></li></ul><h1 id="a85daf99-0678-4f7b-978d-4e4023b10e48" class=""><strong>Securitatea Datelor</strong></h1><p id="46dc61b6-e4ca-4b57-ad1c-eaabab9497b1" class=""><strong>Securitatea Datelor dumneavoastră este importantă pentru noi, dar rețineți că nicio metodă de transmisie prin Internet sau metodă de stocare electronică nu este 100% sigură. În timp ce ne străduim să folosim mijloace comerciale acceptabile pentru a proteja Datele dumneavoastră Personale, nu putem garanta securitatea absolută a acestora.</strong></p><h1 id="69451740-f0fa-4c5f-90e1-b67eebfbab79" class=""><strong>Politica Noastră cu Privire la Semnalele „Do Not Track” conform Legii de Protecție Online din California (CalOPPA)</strong></h1><p id="1868c80c-7c3b-4e0f-8f2e-30f35c3f1291" class=""><strong>Nu susținem semnalele Do Not Track („DNT”). Do Not Track este o preferință pe care o puteți seta în browser-ul dumneavoastră web pentru a informa site-urile web că nu doriți să fiți urmărit.</strong></p><p id="3e1525a2-dc5b-4131-8abe-f3bfe982c4cb" class=""><strong>Puteți activa sau dezactiva Do Not Track vizitând pagina de Preferințe sau Setări a browser-ului dumneavoastră web.</strong></p><h1 id="47638c6c-52cc-48db-b109-bcd1609e2ee7" class=""><strong>Drepturile Dumneavoastră de Protecție a Datelor conform Regulamentului General privind Protecția Datelor (GDPR)</strong></h1><p id="a7b9fef2-2bc1-4053-9275-4544504ec744" class=""><strong>Dacă sunteți rezident al Spațiului Economic European (SEE), aveți anumite drepturi de Protecție a Datelor.</strong> <a href="notion://www.notion.so/ipsiholog.eu">ipsiholog.eu</a> <strong>are ca scop să ia măsuri rezonabile pentru a vă permite să corectați, modificați, ștergeți sau să limitați utilizarea Datelor dumneavoastră Personale.</strong></p><p id="1f3b3cb9-1e3b-4cda-8a2b-06dbc9dd339d" class=""><strong>Dacă doriți să fiți informat despre ce Date Personale deținem despre dumneavoastră și dacă doriți să fie eliminate din sistemele noastre, vă rugăm să ne contactați.</strong></p><p id="66cd7df5-d343-4222-b762-6716f577ba8a" class=""><strong>În anumite circumstanțe, aveți următoarele drepturi de Protecție a Datelor:</strong></p><ul id="1a49de69-2c77-43ef-b0af-79010625fa40" class="bulleted-list"><li style="list-style-type:disc"><strong>Dreptul de a accesa, actualiza sau șterge informațiile pe care le deținem despre dumneavoastră. Ori de câte ori este posibil, puteți accesa, actualiza sau solicita ștergerea Datelor dumneavoastră Personale direct din secțiunea de setări a contului dumneavoastră. Dacă nu puteți efectua aceste acțiuni dumneavoastră, vă rugăm să ne contactați pentru a vă asista.</strong></li></ul><ul id="56d007cd-6a1d-4183-a822-618e4b8a5934" class="bulleted-list"><li style="list-style-type:disc"><strong>Dreptul la rectificare. Aveți dreptul de a avea informațiile dumneavoastră rectificate dacă aceste informații sunt inexacte sau incomplete.</strong></li></ul><ul id="ca2380c6-66bf-4d87-9fd0-3595b4b4393f" class="bulleted-list"><li style="list-style-type:disc"><strong>Dreptul de a obiecta. Aveți dreptul de a obiecta față de procesarea Datelor dumneavoastră Personale.</strong></li></ul><ul id="887a0d88-92cc-455e-b65d-efc51be48d75" class="bulleted-list"><li style="list-style-type:disc"><strong>Dreptul la restricționare. Aveți dreptul de a solicita restricționarea procesării informațiilor dumneavoastră personale.</strong></li></ul><ul id="8b01c3b3-b7ab-4bc9-b278-9edc8f11db02" class="bulleted-list"><li style="list-style-type:disc"><strong>Dreptul la portabilitatea datelor. Aveți dreptul de a vi se furniza o copie a informațiilor pe care le deținem despre dumneavoastră într-un format structurat, ușor de citit și utilizat în mod obișnuit.</strong></li></ul><ul id="54e60b01-3129-499c-8395-dd90549aa04d" class="bulleted-list"><li style="list-style-type:disc"><strong>Dreptul de a retrage consimțământul. Aveți de asemenea dreptul de a vă retrage consimțământul în orice moment în care ipsiholog.eu s-a bazat pe consimțământul dumneavoastră pentru a procesa informațiile dumneavoastră personale.</strong></li></ul><p id="d6756bdf-ab00-455e-9cae-751243a82cd2" class=""><strong>Vă rugăm să rețineți că este posibil să vi se ceară să vă verificați identitatea înainte de a răspunde la astfel de solicitări.</strong></p><p id="44313241-2252-465c-850a-001b4474028d" class=""><strong>Aveți dreptul de a depune o plângere la o Autoritate de Protecție a Datelor cu privire la colectarea și utilizarea de către noi a Datelor dumneavoastră Personale. Pentru mai multe informații, vă rugăm să contactați autoritatea locală de protecție a datelor din Spațiul Economic European (SEE).</strong></p><h1 id="c09133e1-fa4f-4764-80b4-e7665e5d0caa" class=""><strong>Furnizorii de Servicii</strong></h1><p id="015bcc60-71fd-4242-a1b1-f7219bd402ec" class=""><strong>Putem angaja companii și persoane terțe pentru a facilita Serviciul nostru („Furnizorii de Servicii”), pentru a furniza Serviciul în numele nostru, pentru a presta servicii legate de Serviciu sau pentru a ne asista în analizarea modului în care este utilizat Serviciul nostru.</strong></p><p id="f7a82b42-98d3-4eae-8aa5-ffc305c8be6b" class=""><strong>Aceste terțe părți au acces la Datele dumneavoastră Personale doar pentru a îndeplini aceste sarcini în numele nostru și sunt obligate să nu le dezvăluie sau să le folosească în alt scop.</strong></p><h3 id="e7abfa74-f84f-40f9-842a-7349da33bbff" class=""><mark class="highlight-default"><strong>Date Analitice</strong></mark></h3><p id="0b49a63b-8050-4b18-917d-a743eefc2b5b" class=""><strong>Putem utiliza Furnizori de Servicii terți pentru a monitoriza și analiza utilizarea Serviciului nostru.</strong></p><h3 id="cc5bc633-a8ba-4bbc-8478-391a62bd69a7" class=""><strong>Plăți</strong></h3><p id="32514dd2-7d1d-47c6-996e-8cd9a70dfee1" class=""><strong>Putem furniza produse și/sau servicii plătite în cadrul Serviciului. În acest caz, folosim servicii terțe pentru procesarea plăților (de exemplu, procesatori de plăți).</strong></p><p id="d6e569a3-1681-42dd-8529-af9585e8ab14" class=""><strong>Nu vom stoca sau colecta detaliile cardului dumneavoastră de plată. Acea informație este furnizată direct procesatorilor noștri terți de plăți, a căror utilizare a informațiilor dumneavoastră personale este guvernată de politica lor de confidențialitate. Acești procesatori de plăți aderă la standardele stabilite de PCI-DSS, gestionate de Consiliul de Standarde de Securitate PCI, care este un efort comun al unor mărci precum Visa, MasterCard, American Express și Discover. Cerințele PCI-DSS ajută la asigurarea gestionării în siguranță a informațiilor de plată.</strong></p><p id="9aa0dac4-1523-4947-a4b4-103d9cd1349f" class=""><strong>Procesatorii de plăți cu care colaborăm sunt:</strong></p><ul id="911cfe61-7f1c-43a3-9ed5-7e1dcc19aee0" class="bulleted-list"><li style="list-style-type:disc"><strong><a href="https://stripe.com/">Stripe</a></strong></li></ul><ul id="27432536-1d67-4db2-a0bf-c4331bedeeda" class="bulleted-list"><li style="list-style-type:disc"><strong>Politica lor de confidențialitate poate fi vizualizată la </strong><strong><a href="https://stripe.com/us/privacy">https://stripe.com/us/privacy</a></strong></li></ul><h1 id="810d4e2a-9717-499d-8181-7f3b0705ea1a" class=""><strong>Linkuri către Alte Site-uri</strong></h1><p id="87ab3b2e-3aa1-4d39-8160-52f957ce8491" class=""><strong>Serviciul nostru poate conține linkuri către alte site-uri care nu sunt operate de noi. Dacă faceți clic pe un link terț, veți fi direcționat către site-ul respectiv al terțului. Vă recomandăm cu tărie să revizuiți Politica de Confidențialitate a fiecărui site pe care îl vizitați.</strong></p><p id="62ce9c56-9f63-43c3-923f-95c2e81d2691" class=""><strong>Nu avem control asupra și nu ne asumăm nicio responsabilitate pentru conținutul, politicile de confidențialitate sau practicile oricăror site-uri sau servicii terțe.</strong></p><h1 id="c36bfe6d-454f-49ad-ba83-8a06132138f6" class=""><strong>Confidențialitatea Copiilor</strong></h1><p id="8f7659c3-30a1-49f1-84bf-9573b53d97fd" class=""><strong>Serviciul nostru nu se adresează nimănui cu vârsta sub 18 ani („Copii”).</strong></p><p id="10bb693e-b4e7-4cfd-bff3-b441c8d37925" class="">
+</p><p id="b9609778-5506-4cfb-96a2-4a038e102b51" class=""><strong>Nu colectăm în mod conștient informații de identificare personală de la nimeni cu vârsta sub 18 ani. Dacă sunteți un părinte sau un tutore și sunteți conștient că copilul dumneavoastră ne-a furnizat Date Personale, vă rugăm să ne contactați. Dacă devenim conștienți că am colectat Date Personale de la copii fără verificarea consimțământului parental, vom lua măsuri pentru a elimina acele informații de pe serverele noastre.</strong></p><h1 id="d15690e1-a583-461a-be4e-0ae84f98cfef" class=""><strong>Modificări ale acestei Politici de Confidențialitate</strong></h1><p id="efb6b39d-c93a-492c-aa34-4903aff5cd41" class=""><strong>Putem actualiza Politica noastră de Confidențialitate din când în când. Vă vom notifica despre orice modificare prin postarea noii Politici de Confidențialitate pe această pagină.</strong></p><p id="28cf758b-9eb9-4a41-a9e3-b29141b44906" class=""><strong>Vă vom anunța prin e-mail și/sau un anunț proeminent pe Serviciul nostru, înainte ca schimbarea să devină efectivă și vom actualiza „data intrării în vigoare” în partea de sus a acestei Politici de Confidențialitate.</strong></p><p id="cddb9081-c7cf-4150-b41f-1f06c4ed8d23" class=""><strong>Vă recomandăm să revizuiți periodic această Politică de Confidențialitate pentru orice modificare. Modificările la această Politică de Confidențialitate intră în vigoare atunci când sunt postate pe această pagină.</strong></p><h1 id="521d6623-7f9e-4e98-a19d-ac1ae1becbdd" class=""><strong>Contactați-ne</strong></h1><p id="81416e46-cff2-4cb9-894e-dc9f08f7036b" class=""><strong>Dacă aveți întrebări despre această Politică de Confidențialitate, vă rugăm să ne contactați:</strong></p><p id="205ab416-5f67-4703-b1e7-0da52f1c7476" class=""><strong>Prin e-mail: darius@mrnagy.com</strong></p><p id="19c88f51-d53e-4052-8475-09b7278c5048" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
